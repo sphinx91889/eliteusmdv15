@@ -1,0 +1,40 @@
+# www.eliteusmd.com robots.txt
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /private/
+Disallow: /api/
+Disallow: /tmp/
+Disallow: /dev/
+Disallow: /staging/
+Disallow: /test/
+Disallow: /*.json$
+Disallow: /*.xml$
+Disallow: /*.txt$
+
+# Allow CSS, JS, and Images
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.gif$
+Allow: /*.png$
+Allow: /*.svg$
+Allow: /*.webp$
+
+# Crawl-delay
+Crawl-delay: 10
+
+# Sitemaps
+Sitemap: https://www.eliteusmd.com/sitemap.xml
+
+# Social Media Bots
+User-agent: Twitterbot
+Allow: /
+Disallow: /admin/
+
+User-agent: facebookexternalhit
+Allow: /
+Disallow: /admin/
